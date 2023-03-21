@@ -34,7 +34,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: microsoft/variable-substitution@v1 
+    - uses: devops-hemant/variable-substitution@v1 
       with:
         files: 'Application/*.json, Application/*.yaml, ./Application/SampleWebApplication/We*.config'
       env:
